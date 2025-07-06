@@ -42,7 +42,7 @@ const Arena = () => {
               loop
               muted
               playsInline
-              src="\videos\bento-card2.mp4"
+              src="public\videos\Bento-Card2.webm"
             ></video>
           </div>
         </div>
@@ -59,7 +59,7 @@ const Arena = () => {
                 loop
                 muted
                 playsInline
-                src="\videos\bento-card3.mp4"
+                src="public\videos\Bento-Card3.webm"
               ></video>
               <h1 className="absolute bottom-2 left-1/2 transform -translate-x-1/2 z-10 font-extrabold text-2xl">
                 Scoriox
@@ -73,7 +73,7 @@ const Arena = () => {
                 loop
                 muted
                 playsInline
-                src="\videos\bento-card4.mp4"
+                src="public\videos\Bento-Card4.webm"
               ></video>
               <h1 className="absolute bottom-2 left-1/2 transform -translate-x-1/2 z-10 font-extrabold text-2xl">
                 Floralynx
@@ -87,7 +87,7 @@ const Arena = () => {
                 loop
                 muted
                 playsInline
-                src="\videos\bento-card5.mp4"
+                src="public\videos\Bento-Card5.webm"
               ></video>
               <h1 className="absolute bottom-2 left-1/2 transform -translate-x-1/2 z-10 font-extrabold text-2xl">
                 Titanor
