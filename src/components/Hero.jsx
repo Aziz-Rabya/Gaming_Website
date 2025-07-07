@@ -3,7 +3,7 @@ const Hero = () => {
   return (
     <main className="relative w-full h-screen overflow-hidden flex justify-center mb-[10%]">
       <video
-        src="/videos/Hero.webm"
+        src="\videos\Hero.webm"
         autoPlay
         loop
         muted
