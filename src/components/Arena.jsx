@@ -59,7 +59,7 @@ const Arena = () => {
               muted
               playsInline
               preload="none"
-              data-src="/videos/Bento-Card2.webm"
+              data-src="https://res.cloudinary.com/defwlou35/video/upload/v1752268777/Bento-Card2_hkk421.webm"
               poster="/images/bento-card2-poster.jpg"
             ></video>
           </div>
@@ -68,26 +68,66 @@ const Arena = () => {
         {/* Right side */}
         <div className="md:col-span-2 space-y-4 md:space-y-6">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-6">
-            {[3, 4, 5].map((num, i) => (
-              <div
-                key={num}
-                className="relative overflow-hidden rounded-3xl border border-white aspect-square transform transition-transform duration-300 hover:scale-105"
-              >
-                <video
-                  className="lazy w-full h-full object-cover"
-                  autoPlay
-                  loop
-                  muted
-                  playsInline
-                  preload="none"
-                  data-src={`/videos/Bento-Card${num}.webm`}
-                  poster={`/images/bento-card${num}-poster.jpg`}
-                ></video>
-                <h1 className="absolute bottom-2 left-1/2 transform -translate-x-1/2 z-10 font-extrabold text-2xl">
-                  {["Scoriox", "Floralynx", "Titanor"][i]}
-                </h1>
-              </div>
-            ))}
+            {/* Scoriox */}
+            <a
+              href="https://example.com/scoriox"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative overflow-hidden rounded-3xl border border-white aspect-square transform transition-transform duration-300 hover:scale-105 block"
+            >
+              <video
+                className="lazy w-full h-full object-cover"
+                autoPlay
+                loop
+                muted
+                playsInline
+                preload="none"
+                data-src="https://res.cloudinary.com/defwlou35/video/upload/v1752269310/Bento-Card3_qbio25.webm"
+              ></video>
+              <h1 className="absolute bottom-2 left-1/2 transform -translate-x-1/2 z-10 font-extrabold text-2xl">
+                Scoriox
+              </h1>
+            </a>
+            {/* Floralynx */}
+            <a
+              href="https://example.com/floralynx"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative overflow-hidden rounded-3xl border border-white aspect-square transform transition-transform duration-300 hover:scale-105 block"
+            >
+              <video
+                className="lazy w-full h-full object-cover"
+                autoPlay
+                loop
+                muted
+                playsInline
+                preload="none"
+                data-src="https://res.cloudinary.com/defwlou35/video/upload/v1752268706/Bento-Card4_f82pwi.webm"
+              ></video>
+              <h1 className="absolute bottom-2 left-1/2 transform -translate-x-1/2 z-10 font-extrabold text-2xl">
+                Floralynx
+              </h1>
+            </a>
+            {/* Titanor */}
+            <a
+              href="https://example.com/titanor"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative overflow-hidden rounded-3xl border border-white aspect-square transform transition-transform duration-300 hover:scale-105 block"
+            >
+              <video
+                className="lazy w-full h-full object-cover"
+                autoPlay
+                loop
+                muted
+                playsInline
+                preload="none"
+                data-src="https://res.cloudinary.com/defwlou35/video/upload/v1752268752/Bento-Card5_vcrb72.webm"
+              ></video>
+              <h1 className="absolute bottom-2 left-1/2 transform -translate-x-1/2 z-10 font-extrabold text-2xl">
+                Titanor
+              </h1>
+            </a>
           </div>
 
           <div className="relative overflow-hidden rounded-3xl border border-white aspect-[16/9] md:col-span-2 transform transition-transform duration-300 hover:scale-[1.02]">
